@@ -9,21 +9,71 @@
 /* Begin PBXBuildFile section */
 		6B8DC30E2C7930690096591C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC30D2C7930690096591C /* AppDelegate.swift */; };
 		6B8DC3102C7930690096591C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC30F2C7930690096591C /* SceneDelegate.swift */; };
-		6B8DC3122C7930690096591C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3112C7930690096591C /* ViewController.swift */; };
-		6B8DC3152C7930690096591C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3132C7930690096591C /* Main.storyboard */; };
 		6B8DC3172C79306B0096591C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3162C79306B0096591C /* Assets.xcassets */; };
 		6B8DC31A2C79306B0096591C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3182C79306B0096591C /* LaunchScreen.storyboard */; };
+		6B8DC3232C7931170096591C /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3212C7931170096591C /* IngredientsViewController.swift */; };
+		6B8DC3242C7931170096591C /* IngredientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3222C7931170096591C /* IngredientsViewController.xib */; };
+		6B8DC3272C7931A10096591C /* IngredientResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3252C7931A10096591C /* IngredientResultsViewController.swift */; };
+		6B8DC3282C7931A10096591C /* IngredientResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3262C7931A10096591C /* IngredientResultsViewController.xib */; };
+		6B8DC32B2C7931E00096591C /* NutritionResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3292C7931E00096591C /* NutritionResultsViewController.swift */; };
+		6B8DC32C2C7931E00096591C /* NutritionResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC32A2C7931E00096591C /* NutritionResultsViewController.xib */; };
+		6B8DC3302C7932800096591C /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC32F2C7932800096591C /* IngredientsViewModel.swift */; };
+		6B8DC3342C7932EC0096591C /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3322C7932EC0096591C /* IngredientTableViewCell.swift */; };
+		6B8DC3352C7932EC0096591C /* IngredientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3332C7932EC0096591C /* IngredientTableViewCell.xib */; };
+		6B8DC3382C7933170096591C /* NutritionFactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3362C7933170096591C /* NutritionFactTableViewCell.swift */; };
+		6B8DC3392C7933170096591C /* NutritionFactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DC3372C7933170096591C /* NutritionFactTableViewCell.xib */; };
+		6B8DC33C2C79334B0096591C /* NutritionAnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC33B2C79334B0096591C /* NutritionAnalysisResult.swift */; };
+		6B8DC33E2C7933800096591C /* NutrientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC33D2C7933800096591C /* NutrientInfo.swift */; };
+		6B8DC3402C7933920096591C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC33F2C7933920096591C /* Ingredient.swift */; };
+		6B8DC3422C7933A40096591C /* IngredientResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3412C7933A40096591C /* IngredientResult.swift */; };
+		6B8DC3452C7A00A10096591C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3442C7A00A10096591C /* BaseViewController.swift */; };
+		6B8DC3472C7A00C40096591C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3462C7A00C40096591C /* BaseViewModel.swift */; };
+		6B8DC3492C7A01830096591C /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3482C7A01830096591C /* BaseModel.swift */; };
+		6B8DC34B2C7A04130096591C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC34A2C7A04130096591C /* Enums.swift */; };
+		6B8DC34D2C7A082C0096591C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC34C2C7A082C0096591C /* Constants.swift */; };
+		6B8DC3502C7A085A0096591C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC34F2C7A085A0096591C /* Extensions.swift */; };
+		6B8DC3522C7A086D0096591C /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3512C7A086D0096591C /* Swizzler.swift */; };
+		6B8DC3542C7A08CE0096591C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3532C7A08CE0096591C /* TextView.swift */; };
+		6B8DC3572C7A0BD10096591C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3562C7A0BD10096591C /* NetworkManager.swift */; };
+		6B8DC3592C7A0C770096591C /* AnalyzerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC3582C7A0C770096591C /* AnalyzerAPI.swift */; };
+		FF98B7B40D4100AC7AD8FA90 /* Pods_Nutrition_Analyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF227244D3B8DDA253772BDB /* Pods_Nutrition_Analyzer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0266748872999F52A17B7A41 /* Pods-Nutrition Analyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analyzer.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition Analyzer/Pods-Nutrition Analyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		325250FBE39DBF1278B53519 /* Pods-Nutrition Analyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analyzer.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analyzer/Pods-Nutrition Analyzer.release.xcconfig"; sourceTree = "<group>"; };
 		6B8DC30A2C7930690096591C /* Nutrition Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutrition Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8DC30D2C7930690096591C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B8DC30F2C7930690096591C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B8DC3112C7930690096591C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B8DC3142C7930690096591C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B8DC3162C79306B0096591C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B8DC3192C79306B0096591C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B8DC31B2C79306B0096591C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8DC3212C7931170096591C /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		6B8DC3222C7931170096591C /* IngredientsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsViewController.xib; sourceTree = "<group>"; };
+		6B8DC3252C7931A10096591C /* IngredientResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientResultsViewController.swift; sourceTree = "<group>"; };
+		6B8DC3262C7931A10096591C /* IngredientResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientResultsViewController.xib; sourceTree = "<group>"; };
+		6B8DC3292C7931E00096591C /* NutritionResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionResultsViewController.swift; sourceTree = "<group>"; };
+		6B8DC32A2C7931E00096591C /* NutritionResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NutritionResultsViewController.xib; sourceTree = "<group>"; };
+		6B8DC32F2C7932800096591C /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
+		6B8DC3322C7932EC0096591C /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		6B8DC3332C7932EC0096591C /* IngredientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientTableViewCell.xib; sourceTree = "<group>"; };
+		6B8DC3362C7933170096591C /* NutritionFactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactTableViewCell.swift; sourceTree = "<group>"; };
+		6B8DC3372C7933170096591C /* NutritionFactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NutritionFactTableViewCell.xib; sourceTree = "<group>"; };
+		6B8DC33B2C79334B0096591C /* NutritionAnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAnalysisResult.swift; sourceTree = "<group>"; };
+		6B8DC33D2C7933800096591C /* NutrientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientInfo.swift; sourceTree = "<group>"; };
+		6B8DC33F2C7933920096591C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		6B8DC3412C7933A40096591C /* IngredientResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientResult.swift; sourceTree = "<group>"; };
+		6B8DC3442C7A00A10096591C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6B8DC3462C7A00C40096591C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6B8DC3482C7A01830096591C /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		6B8DC34A2C7A04130096591C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6B8DC34C2C7A082C0096591C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6B8DC34F2C7A085A0096591C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6B8DC3512C7A086D0096591C /* Swizzler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
+		6B8DC3532C7A08CE0096591C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		6B8DC3562C7A0BD10096591C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6B8DC3582C7A0C770096591C /* AnalyzerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerAPI.swift; sourceTree = "<group>"; };
+		DF227244D3B8DDA253772BDB /* Pods_Nutrition_Analyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF98B7B40D4100AC7AD8FA90 /* Pods_Nutrition_Analyzer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +93,8 @@
 			children = (
 				6B8DC30C2C7930690096591C /* Nutrition Analyzer */,
 				6B8DC30B2C7930690096591C /* Products */,
+				FEEB40FE4DA502EA321DA17A /* Pods */,
+				B2CC5B4EACF3B93623FDFEFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,119 @@
 		6B8DC30C2C7930690096591C /* Nutrition Analyzer */ = {
 			isa = PBXGroup;
 			children = (
-				6B8DC30D2C7930690096591C /* AppDelegate.swift */,
-				6B8DC30F2C7930690096591C /* SceneDelegate.swift */,
-				6B8DC3112C7930690096591C /* ViewController.swift */,
-				6B8DC3132C7930690096591C /* Main.storyboard */,
+				6B8DC35F2C7A41410096591C /* AppDelegate */,
+				6B8DC3552C7A0BBF0096591C /* Network */,
+				6B8DC33A2C7933380096591C /* Models */,
+				6B8DC34E2C7A084D0096591C /* Helpers */,
+				6B8DC3432C7A00880096591C /* Base */,
+				6B8DC3312C7932C50096591C /* Cells */,
+				6B8DC32E2C7932690096591C /* ViewModels */,
+				6B8DC32D2C7932160096591C /* ViewControllers */,
 				6B8DC3162C79306B0096591C /* Assets.xcassets */,
 				6B8DC3182C79306B0096591C /* LaunchScreen.storyboard */,
 				6B8DC31B2C79306B0096591C /* Info.plist */,
+				6B8DC34A2C7A04130096591C /* Enums.swift */,
+				6B8DC34C2C7A082C0096591C /* Constants.swift */,
 			);
 			path = "Nutrition Analyzer";
+			sourceTree = "<group>";
+		};
+		6B8DC32D2C7932160096591C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC3212C7931170096591C /* IngredientsViewController.swift */,
+				6B8DC3222C7931170096591C /* IngredientsViewController.xib */,
+				6B8DC3252C7931A10096591C /* IngredientResultsViewController.swift */,
+				6B8DC3262C7931A10096591C /* IngredientResultsViewController.xib */,
+				6B8DC3292C7931E00096591C /* NutritionResultsViewController.swift */,
+				6B8DC32A2C7931E00096591C /* NutritionResultsViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6B8DC32E2C7932690096591C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC32F2C7932800096591C /* IngredientsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6B8DC3312C7932C50096591C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC3322C7932EC0096591C /* IngredientTableViewCell.swift */,
+				6B8DC3332C7932EC0096591C /* IngredientTableViewCell.xib */,
+				6B8DC3362C7933170096591C /* NutritionFactTableViewCell.swift */,
+				6B8DC3372C7933170096591C /* NutritionFactTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6B8DC33A2C7933380096591C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC33B2C79334B0096591C /* NutritionAnalysisResult.swift */,
+				6B8DC33D2C7933800096591C /* NutrientInfo.swift */,
+				6B8DC33F2C7933920096591C /* Ingredient.swift */,
+				6B8DC3412C7933A40096591C /* IngredientResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B8DC3432C7A00880096591C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC3442C7A00A10096591C /* BaseViewController.swift */,
+				6B8DC3462C7A00C40096591C /* BaseViewModel.swift */,
+				6B8DC3482C7A01830096591C /* BaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6B8DC34E2C7A084D0096591C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC34F2C7A085A0096591C /* Extensions.swift */,
+				6B8DC3512C7A086D0096591C /* Swizzler.swift */,
+				6B8DC3532C7A08CE0096591C /* TextView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6B8DC3552C7A0BBF0096591C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC3562C7A0BD10096591C /* NetworkManager.swift */,
+				6B8DC3582C7A0C770096591C /* AnalyzerAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6B8DC35F2C7A41410096591C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DC30D2C7930690096591C /* AppDelegate.swift */,
+				6B8DC30F2C7930690096591C /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B2CC5B4EACF3B93623FDFEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF227244D3B8DDA253772BDB /* Pods_Nutrition_Analyzer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEEB40FE4DA502EA321DA17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0266748872999F52A17B7A41 /* Pods-Nutrition Analyzer.debug.xcconfig */,
+				325250FBE39DBF1278B53519 /* Pods-Nutrition Analyzer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B8DC31E2C79306B0096591C /* Build configuration list for PBXNativeTarget "Nutrition Analyzer" */;
 			buildPhases = (
+				CBBD8FA84E21E430A5613274 /* [CP] Check Pods Manifest.lock */,
 				6B8DC3062C7930690096591C /* Sources */,
 				6B8DC3072C7930690096591C /* Frameworks */,
 				6B8DC3082C7930690096591C /* Resources */,
+				BC52D4A6149982E565456DF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +285,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B8DC31A2C79306B0096591C /* LaunchScreen.storyboard in Resources */,
+				6B8DC3282C7931A10096591C /* IngredientResultsViewController.xib in Resources */,
+				6B8DC3242C7931170096591C /* IngredientsViewController.xib in Resources */,
 				6B8DC3172C79306B0096591C /* Assets.xcassets in Resources */,
-				6B8DC3152C7930690096591C /* Main.storyboard in Resources */,
+				6B8DC3392C7933170096591C /* NutritionFactTableViewCell.xib in Resources */,
+				6B8DC32C2C7931E00096591C /* NutritionResultsViewController.xib in Resources */,
+				6B8DC3352C7932EC0096591C /* IngredientTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC52D4A6149982E565456DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analyzer/Pods-Nutrition Analyzer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analyzer/Pods-Nutrition Analyzer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analyzer/Pods-Nutrition Analyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBD8FA84E21E430A5613274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition Analyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B8DC3062C7930690096591C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B8DC3122C7930690096591C /* ViewController.swift in Sources */,
+				6B8DC3272C7931A10096591C /* IngredientResultsViewController.swift in Sources */,
+				6B8DC32B2C7931E00096591C /* NutritionResultsViewController.swift in Sources */,
+				6B8DC3542C7A08CE0096591C /* TextView.swift in Sources */,
+				6B8DC3572C7A0BD10096591C /* NetworkManager.swift in Sources */,
+				6B8DC3302C7932800096591C /* IngredientsViewModel.swift in Sources */,
+				6B8DC3382C7933170096591C /* NutritionFactTableViewCell.swift in Sources */,
+				6B8DC3522C7A086D0096591C /* Swizzler.swift in Sources */,
+				6B8DC34B2C7A04130096591C /* Enums.swift in Sources */,
+				6B8DC3452C7A00A10096591C /* BaseViewController.swift in Sources */,
+				6B8DC3502C7A085A0096591C /* Extensions.swift in Sources */,
+				6B8DC3492C7A01830096591C /* BaseModel.swift in Sources */,
+				6B8DC33C2C79334B0096591C /* NutritionAnalysisResult.swift in Sources */,
+				6B8DC3342C7932EC0096591C /* IngredientTableViewCell.swift in Sources */,
+				6B8DC3232C7931170096591C /* IngredientsViewController.swift in Sources */,
+				6B8DC3402C7933920096591C /* Ingredient.swift in Sources */,
 				6B8DC30E2C7930690096591C /* AppDelegate.swift in Sources */,
+				6B8DC3472C7A00C40096591C /* BaseViewModel.swift in Sources */,
+				6B8DC33E2C7933800096591C /* NutrientInfo.swift in Sources */,
 				6B8DC3102C7930690096591C /* SceneDelegate.swift in Sources */,
+				6B8DC3422C7933A40096591C /* IngredientResult.swift in Sources */,
+				6B8DC34D2C7A082C0096591C /* Constants.swift in Sources */,
+				6B8DC3592C7A0C770096591C /* AnalyzerAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B8DC3132C7930690096591C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B8DC3142C7930690096591C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B8DC3182C79306B0096591C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +498,7 @@
 		};
 		6B8DC31F2C79306B0096591C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0266748872999F52A17B7A41 /* Pods-Nutrition Analyzer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +509,8 @@
 				INFOPLIST_FILE = "Nutrition Analyzer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +526,7 @@
 		};
 		6B8DC3202C79306B0096591C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325250FBE39DBF1278B53519 /* Pods-Nutrition Analyzer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +537,8 @@
 				INFOPLIST_FILE = "Nutrition Analyzer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

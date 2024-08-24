@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NutritionResultsViewController" customModule="Nutrition_Analyzer" customModuleProvider="target">
+            <connections>
+                <outlet property="caloriesLabel" destination="gDW-Be-M4H" id="PIn-Ek-MXZ"/>
+                <outlet property="tableView" destination="hWY-ky-2Mb" id="Uy9-gd-Ohd"/>
+                <outlet property="view" destination="Fmp-Wa-9D4" id="3lv-OP-prl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Fmp-Wa-9D4">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhX-mD-Cpo">
+                    <rect key="frame" x="16" y="75" width="361" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Cs-2A-OYV">
+                            <rect key="frame" x="17" y="36" width="84.5" height="26.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="702" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-Be-M4H">
+                            <rect key="frame" x="307" y="36.666666666666671" width="38" height="26.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="gDW-Be-M4H" secondAttribute="trailing" constant="16" id="YBE-zT-1zX"/>
+                        <constraint firstItem="gDW-Be-M4H" firstAttribute="centerY" secondItem="WhX-mD-Cpo" secondAttribute="centerY" id="ayV-QK-3jy"/>
+                        <constraint firstAttribute="height" constant="100" id="uZD-sc-scv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadow">
+                            <color key="value" systemColor="systemGray5Color"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-ky-2Mb">
+                    <rect key="frame" x="0.0" y="234" width="393" height="602"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Values" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2q-tg-7Ua">
+                    <rect key="frame" x="262" y="191" width="115" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="yW2-Lx-y9w"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="WhX-mD-Cpo" firstAttribute="top" secondItem="yW2-Lx-y9w" secondAttribute="top" constant="16" id="7Ks-eV-caA"/>
+                <constraint firstItem="yW2-Lx-y9w" firstAttribute="trailing" secondItem="P2q-tg-7Ua" secondAttribute="trailing" constant="16" id="FLh-cE-qep"/>
+                <constraint firstItem="WhX-mD-Cpo" firstAttribute="leading" secondItem="yW2-Lx-y9w" secondAttribute="leading" constant="16" id="UQ2-fB-stD"/>
+                <constraint firstAttribute="bottom" secondItem="hWY-ky-2Mb" secondAttribute="bottom" constant="16" id="YuJ-Om-zfz"/>
+                <constraint firstItem="yW2-Lx-y9w" firstAttribute="trailing" secondItem="hWY-ky-2Mb" secondAttribute="trailing" id="cwa-tf-qlc"/>
+                <constraint firstItem="yW2-Lx-y9w" firstAttribute="trailing" secondItem="WhX-mD-Cpo" secondAttribute="trailing" constant="16" id="gEJ-8t-kLj"/>
+                <constraint firstItem="hWY-ky-2Mb" firstAttribute="top" secondItem="P2q-tg-7Ua" secondAttribute="bottom" constant="16" id="uSX-of-C9e"/>
+                <constraint firstItem="hWY-ky-2Mb" firstAttribute="leading" secondItem="Fmp-Wa-9D4" secondAttribute="leading" id="wDv-d3-801"/>
+                <constraint firstItem="P2q-tg-7Ua" firstAttribute="top" secondItem="WhX-mD-Cpo" secondAttribute="bottom" constant="16" id="zh0-Fu-JkE"/>
+            </constraints>
+            <point key="canvasLocation" x="100" y="-4"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
